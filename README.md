@@ -65,7 +65,8 @@
 - [STRUCTURE.md](STRUCTURE.md) — структура методологического текста;
 - [DRAFT.md](DRAFT.md) — растущий черновик;
 - [DECISIONS.md](DECISIONS.md) — журнал принятых и отвергнутых решений;
-- [SOURCES.md](SOURCES.md) — внешняя верификация и источники;
+- [SOURCES.md](SOURCES.md) — внешняя верификация понятийного ядра «ресурс → актив → capability»;
+- [ARTICLE1_THEORETICAL_REVIEW.md](ARTICLE1_THEORETICAL_REVIEW.md) — глубокий теоретический обзор и карта источников для программной статьи №1;
 - [ARTICLES.md](ARTICLES.md) — корпус научных статей и внутренняя исследовательская рамка;
 - [OLGA_ARTICLE_PASSPORT.md](OLGA_ARTICLE_PASSPORT.md) — одностраничный паспорт программной статьи для обсуждения с Ольгой Чепьюк.
 
