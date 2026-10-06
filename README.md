@@ -59,6 +59,7 @@
 
 ## Файлы проекта
 
+- [ROADMAP.md](ROADMAP.md) — **первый навигационный документ проекта: пройденный путь, текущий фронт, NEXT и будущие этапы**;
 - [MASTER.md](MASTER.md) — каноническая текущая версия модели;
 - [DEFINITIONS.md](DEFINITIONS.md) — согласованные определения и различения;
 - [STRUCTURE.md](STRUCTURE.md) — структура методологического текста;
@@ -72,11 +73,11 @@
 
 Перед существенной сессией:
 
-`MASTER → DEFINITIONS → STRUCTURE → DECISIONS → текущий фрагмент`
+`ROADMAP → MASTER / DEFINITIONS → нужный исследовательский трек → DECISIONS / SOURCES / DRAFT`
 
 После существенной сессии:
 
-`новые решения → DECISIONS → DEFINITIONS / MASTER → публикационный контур`
+`новые решения → DECISIONS → DEFINITIONS / MASTER → ROADMAP → публикационный контур`
 
 Эпистемические статусы:
 
