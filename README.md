@@ -12,11 +12,13 @@
 
 Кодировочный инструмент:
 
-> **v0.7.2 — FROZEN FOR CORPUS A**
+> **v0.7.3 — FROZEN FOR CORPUS A**
+
+Исторический freeze v0.7.2: SHA `91b173464c6aec7d9f756f3dc5eb568ccf944457`.
 
 Текущая стадия:
 
-> **Reproducibility Freeze завершает разработку инструмента перед prospective coding работ 2–6 Corpus A.**
+> **Финальный reproducibility patch завершает подготовку перед формальным coding работ 2–6 Corpus A.**
 
 ---
 
@@ -62,7 +64,7 @@
 
 - [`ROADMAP.md`](ROADMAP.md) — текущая точка, NEXT и milestones.
 - [`OLGA_ARTICLE_PASSPORT.md`](OLGA_ARTICLE_PASSPORT.md) — паспорт статьи №1.
-- [`DECISIONS.md`](DECISIONS.md) — журнал решений; D-063–D-069 = reproducibility freeze.
+- [`DECISIONS.md`](DECISIONS.md) — полный журнал решений; D-070 = финальный reproducibility patch.
 
 ## Статья №1
 
@@ -72,11 +74,12 @@
 
 ## Coding / Corpus A
 
-- [`ARTICLE1_CODING_MATRIX.md`](ARTICLE1_CODING_MATRIX.md) — frozen core v0.7.2.
-- [`ARTICLE1_CODING_MANUAL.md`](ARTICLE1_CODING_MANUAL.md) — полный coding manual.
+- [`ARTICLE1_CODING_MATRIX.md`](ARTICLE1_CODING_MATRIX.md) — frozen core v0.7.3.
+- [`ARTICLE1_CODING_MANUAL.md`](ARTICLE1_CODING_MANUAL.md) — полный coding manual v0.7.3.
 - [`ARTICLE1_CORPUS_A_REQUIREMENTS.md`](ARTICLE1_CORPUS_A_REQUIREMENTS.md) — frozen requirement map `Т / t⁰ / Т?`.
-- [`ARTICLE1_CORPUS_A_PREDICTIONS.md`](ARTICLE1_CORPUS_A_PREDICTIONS.md) — preregistered predictions до работ 2–6.
-- [`ARTICLE1_CORPUS_A_PILOT_SIBERGY.md`](ARTICLE1_CORPUS_A_PILOT_SIBERGY.md) — обезличенный development case Work A.
+- [`ARTICLE1_CORPUS_A_PREDICTIONS.md`](ARTICLE1_CORPUS_A_PREDICTIONS.md) — dated internal pre-analysis registration до формального coding работ 2–6.
+- [`ARTICLE1_CORPUS_A_PILOT_SIBERGY.md`](ARTICLE1_CORPUS_A_PILOT_SIBERGY.md) — development case Sibergy / Work A.
+- [`ARTICLE1_FINANCIAL_ADAPTER_A.md`](ARTICLE1_FINANCIAL_ADAPTER_A.md) — optional prototype financial adapter; вне frozen CORE.
 
 ## Канон школы / публикационный корпус
 
@@ -93,7 +96,9 @@
 
 ### Corpus A
 
-Шесть школьных работ одного курса. Work A / Sibergy использована как development case. Остальные пять после fixed SHA — prospective internal pilot cases. Инструмент на них не меняется.
+Шесть школьных работ одного курса. Sibergy / Work A использована как development case. Остальные пять после fixed SHA v0.7.3 — prospective internal pilot cases. Инструмент на них не меняется.
+
+**Prior exposure:** автор курса ранее знаком с работами; некоторые артефакты предварительно просматривались / извлекались при подготовке корпуса. Поэтому Corpus A не является blind validation sample. Доказательная граница — **до стандартизированного coding по v0.7.3**, а не до первого знакомства с работами.
 
 ### Corpus B
 

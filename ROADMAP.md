@@ -1,8 +1,8 @@
 # ROADMAP — дорожная карта проекта
 
-**Статус:** живой навигационный документ v0.7  
+**Статус:** живой навигационный документ v0.8  
 **Актуально на:** 2026-10-19  
-**Точка:** Sync II — Reproducibility Freeze перед работами 2–6 Corpus A.
+**Точка:** v0.7.3 FROZEN FOR CORPUS A; следующий шаг — формальное кодирование Work 2.
 
 ---
 
@@ -13,24 +13,25 @@
 1. `OLGA_ARTICLE_PASSPORT.md` — краткая текущая постановка статьи.
 2. `ARTICLE1_MANUSCRIPT.md` — полный manuscript v0.6, заморожен на период Corpus A.
 3. `ARTICLE1_THEORETICAL_REVIEW.md` — ближайшие предшественники, research gap и риски.
-4. `DECISIONS.md` — решения; D-063–D-069 фиксируют reproducibility freeze.
+4. `DECISIONS.md` — полный журнал решений; D-070 фиксирует финальный reproducibility patch.
 5. `ARTICLE1_REDTEAM_DELTA.md` — актуальные исторические red-team решения D-037–D-049 и контекст раннего сужения claims.
 
 ## Инструмент / Corpus A
 
-6. `ARTICLE1_CODING_MATRIX.md` — v0.7.2 FROZEN FOR CORPUS A.
-7. `ARTICLE1_CODING_MANUAL.md` — полный операциональный manual v0.7.2.
+6. `ARTICLE1_CODING_MATRIX.md` — v0.7.3 FROZEN FOR CORPUS A.
+7. `ARTICLE1_CODING_MANUAL.md` — полный операциональный manual v0.7.3.
 8. `ARTICLE1_CORPUS_A_REQUIREMENTS.md` — frozen prompting map `Т / t⁰ / Т?`.
-9. `ARTICLE1_CORPUS_A_PREDICTIONS.md` — dated preregistration до работ 2–6.
-10. `ARTICLE1_CORPUS_A_PILOT_SIBERGY.md` — обезличенный Work A / development case.
+9. `ARTICLE1_CORPUS_A_PREDICTIONS.md` — dated internal pre-analysis registration до формального coding работ 2–6.
+10. `ARTICLE1_CORPUS_A_PILOT_SIBERGY.md` — Sibergy / Work A, development case.
+11. `ARTICLE1_FINANCIAL_ADAPTER_A.md` — optional prototype, outside frozen CORE.
 
 ## Школа / публикационный контур
 
-11. `MASTER.md` — каноническая модель школы.
-12. `DEFINITIONS.md` — понятийное ядро.
-13. `ARTICLES.md` — архитектура публикационного корпуса.
-14. `SOURCES.md` — внешняя верификация.
-15. `README.md` — карта репозитория.
+12. `MASTER.md` — каноническая модель школы.
+13. `DEFINITIONS.md` — понятийное ядро.
+14. `ARTICLES.md` — архитектура публикационного корпуса.
+15. `SOURCES.md` — внешняя верификация.
+16. `README.md` — карта репозитория.
 
 ---
 
@@ -92,28 +93,33 @@
 - применимость manual независимым кодировщиком;
 - различимость профилей;
 - inter-rater agreement;
-- predictions, зафиксированные до новых данных.
+- predictions, зафиксированные до формального анализа нового материала.
+
+Corpus A даёт только internal prospective pilot после prior exposure; более сильный тест остаётся за Corpus B.
 
 ---
 
 # 5. Freeze 1 — Corpus A
 
-Каноническая версия инструмента:
+Исторический reproducibility freeze:
 
-> **v0.7.2 — FROZEN FOR CORPUS A**
+> **v0.7.2 — SHA `91b173464c6aec7d9f756f3dc5eb568ccf944457`**
 
-Freeze package:
+Финальный patch перед formal coding:
 
-- matrix;
-- full manual;
-- requirements map;
-- preregistered predictions;
-- anonymized Work A pilot;
-- full Issue Log;
-- decisions D-063–D-069;
-- fixed commit SHA.
+> **v0.7.3 — FROZEN FOR CORPUS A**
 
-После фиксированного SHA никакие правила не меняются на работах 2–6.
+v0.7.3 не меняет 14 строк CORE и теоретическую архитектуру. Изменены только reproducibility details:
+
+- честный статус prior exposure;
+- requirement map строк 1 / 8 / 11 → `Т?`;
+- уникальные обозначения кодов;
+- единое правило `О`;
+- prediction A6 `prompting ≠ integration`;
+- optional Financial Adapter A;
+- восстановленный полнотекстовый `DECISIONS.md`.
+
+После fixed SHA v0.7.3 никакие правила не меняются на работах 2–6.
 
 Новая трудность:
 
@@ -125,14 +131,22 @@ Freeze package:
 
 Шесть итоговых проектов одного курса / одной архитектуры:
 
-1. Work A / Sibergy — development case;
+1. Sibergy / Work A — development case;
 2. Belobank;
 3. Young Tourists;
 4. Easy Stay;
 5. FitBloom;
 6. «Термоядерный синтез».
 
-Work A участвовала в разработке инструмента. Работы 2–6 — **prospective internal pilot cases**. Они сильнее ретроспективного описания, но слабее независимой валидации.
+Sibergy участвовала в разработке инструмента. Работы 2–6 — **prospective internal pilot cases**.
+
+### Prior exposure
+
+Автор курса ранее знает работы; некоторые артефакты предварительно просматривались / извлекались в процессе подготовки корпуса. Поэтому Corpus A не является blind-unseen sample.
+
+Корректная доказательная граница:
+
+> **правила и predictions frozen до формального стандартизированного coding по v0.7.3.**
 
 ### Для каждой работы получить
 
@@ -158,7 +172,8 @@ Work A участвовала в разработке инструмента. Р
 - жанровый эффект на `О`;
 - строки с высокой интерпретативностью;
 - что действительно объясняет frozen prompting map;
-- preregistered predictions vs результаты.
+- A1–A6 vs результаты;
+- какие результаты были ожидаемы из prior exposure, а какие реально появились в formal coding.
 
 Только после этого решать о v0.8.
 
@@ -189,7 +204,7 @@ v0.8 допустима **только после полного Corpus A**.
 
 - value → economic effect, а не только payment / revenue;
 - resource provision / financing не сводится к investor;
-- opornye variables реестра задаются функционально;
+- опорные величины реестра задаются функционально;
 - engineering / tech project проходит core без изменения архитектуры.
 
 ---
@@ -227,9 +242,7 @@ AI coding не считается доказательством reproducibility
 
 # 12. Следующий NEXT
 
-После завершения Sync II и фиксации commit SHA:
-
-> **кодировать Work 2 Corpus A строго по v0.7.2.**
+> **Формально кодировать Work 2 Corpus A строго по v0.7.3.**
 
 Затем Work 3 → 4 → 5 → 6. Никакого cross-case переписывания до завершения всех пяти новых кодирований.
 
@@ -240,10 +253,12 @@ AI coding не считается доказательством reproducibility
 - ✅ Object / subject / mechanism frozen.
 - ✅ Manuscript v0.6.
 - ✅ Three-product architecture.
-- ✅ Work A development stress-test.
+- ✅ Sibergy development stress-test.
 - ✅ CORE + adapters.
-- ✅ v0.7.2 frozen core/manual.
-- ✅ Corpus A prompting map and preregistered predictions.
+- ✅ Historical v0.7.2 freeze SHA.
+- ✅ v0.7.3 reproducibility patch.
+- ✅ Corpus A prompting map and dated pre-analysis predictions.
+- ✅ v0.7.3 fixed SHA / freeze ref.
 - ⏳ Works 2–6 coded.
 - ⏳ Corpus A cross-case analysis.
 - ⏳ v0.8 decision.
