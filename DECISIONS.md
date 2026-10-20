@@ -2,8 +2,9 @@
 
 Этот файл хранит историю методологических решений проекта.
 
-**Актуально на:** 2026-10-19.  
+**Актуально на:** 2026-10-20.  
 **Текущий Corpus A freeze:** v0.7.3; см. D-070.  
+**Текущая sequence-оговорка перед coding:** однократная manuscript synchronization; см. D-071.  
 **Исторический freeze v0.7.2:** SHA `91b173464c6aec7d9f756f3dc5eb568ccf944457`.
 
 ---
@@ -497,7 +498,6 @@ BPMN Task не тождествен функции: Task — элемент мо
 **Статус:** принято как методологическое ограничение.
 
 ### Основание
-
 Архитектура `реальность → различение → понятие → модель → система → измерение → решение → действие → обратная связь` обладает высокой интегративностью. Именно поэтому существует риск превратить её в универсальную объяснительную схему, которую проект перестанет проверять.
 
 ### Решение
@@ -1228,6 +1228,69 @@ v0.7.2 сохраняется как исторический freeze SHA `91b173
 
 ---
 
+## D-071. Однократная синхронизация manuscript перед Corpus A
+
+**Статус:** принято автором 2026-10-20; **уточняет только непосредственный NEXT после D-070**.
+
+### Решение
+
+До начала formal coding Works 2–6 Corpus A допускается **одна последняя синхронизация manuscript**:
+
+`external draft v0.7 → точечная редакция v0.7.1 → канонизация manuscript в GitHub → MANUSCRIPT FREEZE → STOP EDITING THE PAPER → Work 2 → Work 3 → Work 4 → Work 5 → Work 6 → cross-case analysis`.
+
+D-071 **заменяет только непосредственный NEXT** `v0.6 frozen → сразу Work 2` на `однократная manuscript synchronization → новый manuscript freeze → Work 2`.
+
+D-071 **не открывает новую итерацию теории, инструмента или исследовательской архитектуры** и не отменяет основную логику D-069/D-070.
+
+### Разрешённые границы редакции v0.7 → v0.7.1
+
+Разрешены только заранее выявленные классы правок:
+
+1. устранить смешение `asset ≠ capability`;
+2. пересмотреть пример с expertise ключевого сотрудника, если он создаёт ненужную онтологическую неоднозначность;
+3. ослабить epistemic status формулировки «необходимые признаки целостности» до статуса предлагаемой нормативной модели;
+4. унифицировать novelty claims: `contribution candidate ≠ established novelty`;
+5. синхронизировать manuscript с frozen v0.7.3: prior exposure; row 8 = `Т?`; при необходимости rows 1 / 11 = `Т?`; A6 `prompting ≠ integration`; empirical status Corpus A;
+6. точечно проверить соответствие линии Чепьюк — Вольчик — Балацкий, **не расширяя статью новым теоретическим блоком**.
+
+### Что не разрешено
+
+Не разрешено:
+
+- добавлять новые framework;
+- менять research question;
+- менять объект / предмет;
+- вводить новые строки matrix;
+- менять архитектуру CORE;
+- создавать новые hypotheses для Corpus A;
+- перепроектировать article structure;
+- превращать статью в работу об assessment standard;
+- открывать новую дискуссию об общей методологии школы.
+
+Assessment framework / «протостандарт» остаётся отдельным future research direction и в статью №1 сейчас не включается.
+
+### Frozen research instrument не меняется
+
+Research instrument остаётся полностью frozen:
+
+> **v0.7.3 — fixed SHA `5f905c7a15e558bb2fff34c52ee4597e296a4a90`.**
+
+Не меняются `ARTICLE1_CODING_MATRIX.md`, `ARTICLE1_CODING_MANUAL.md`, 14 строк CORE, coding dimensions, deficit codes, requirement map, predictions, provenance rules, deterministic `О` rule, Corpus A coding procedure и статус Financial Adapter A.
+
+Никакие выводы из редакции manuscript не могут ретроспективно изменить frozen instrument.
+
+### Новый manuscript freeze
+
+После канонизации `ARTICLE1_MANUSCRIPT.md` v0.7.1 manuscript снова замораживается.
+
+> **После MANUSCRIPT FREEZE v0.7.1 следующий шаг — formal coding Work 2 по frozen instrument v0.7.3.**
+
+Дальнейшие изменения manuscript допускаются только после завершения Works 2–6.
+
+До выполнения самой точечной редакции и канонизации **v0.7.1 не считается готовым или каноническим manuscript**.
+
+---
+
 # Текущий NEXT
 
-> **После fixed SHA v0.7.3 начать формальное кодирование работ 2–6 Corpus A без изменения инструмента.**
+> **Выполнить единственную разрешённую D-071 точечную редакцию external draft v0.7 → v0.7.1, канонизировать manuscript в GitHub и установить MANUSCRIPT FREEZE. После этого — formal coding Work 2 по неизменному frozen instrument v0.7.3.**
