@@ -1,7 +1,7 @@
 # Паспорт программной статьи №1
 
-**Статус:** v0.6 — theory-first + practice-informed operationalization + reproducibility freeze  
-**Актуально на:** 2026-10-19
+**Статус:** текущий канонический manuscript v0.6; D-071 разрешает одну точечную синхронизацию external draft v0.7 → v0.7.1 перед Corpus A  
+**Актуально на:** 2026-10-20
 
 ## Рабочее название
 
@@ -262,11 +262,11 @@ CORE работает на уровне структуры экономичес�
 
 # 15. Текущий статус файлов
 
-- `ARTICLE1_MANUSCRIPT.md` — manuscript v0.6, заморожен на период Corpus A;
-- `ARTICLE1_CODING_MATRIX.md` — v0.7.2 FROZEN FOR CORPUS A;
-- `ARTICLE1_CODING_MANUAL.md` — полный reproducibility manual;
-- `ARTICLE1_CORPUS_A_PREDICTIONS.md` — preregistration до работ 2–6;
+- `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.6; external draft v0.7 ещё не каноничен. По D-071 разрешена одна точечная редакция `v0.7 → v0.7.1`, затем канонизация и MANUSCRIPT FREEZE до завершения Works 2–6;
+- `ARTICLE1_CODING_MATRIX.md` — **v0.7.3 FROZEN FOR CORPUS A**, fixed SHA `5f905c7a15e558bb2fff34c52ee4597e296a4a90`;
+- `ARTICLE1_CODING_MANUAL.md` — полный reproducibility manual **v0.7.3**, frozen;
+- `ARTICLE1_CORPUS_A_PREDICTIONS.md` — dated internal pre-analysis registration до formal coding работ 2–6;
 - `ARTICLE1_CORPUS_A_REQUIREMENTS.md` — frozen prompting map;
-- `ARTICLE1_CORPUS_A_PILOT_SIBERGY.md` — обезличенный development case.
+- `ARTICLE1_CORPUS_A_PILOT_SIBERGY.md` — development case.
 
-Следующий шаг статьи — **не переписывание manuscript**, а проверка frozen инструмента на оставшихся пяти работах.
+Следующий шаг статьи по D-071 — **однократно выполнить разрешённую точечную редакцию v0.7 → v0.7.1, канонизировать manuscript и установить MANUSCRIPT FREEZE**. До выполнения этой редакции v0.7.1 не считается готовым. После freeze следующий шаг — formal coding Work 2 по неизменному frozen instrument v0.7.3.
