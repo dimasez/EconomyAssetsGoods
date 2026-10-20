@@ -1,8 +1,8 @@
 # ROADMAP — дорожная карта проекта
 
 **Статус:** живой навигационный документ v0.8  
-**Актуально на:** 2026-10-19  
-**Точка:** v0.7.3 FROZEN FOR CORPUS A; следующий шаг — формальное кодирование Work 2.
+**Актуально на:** 2026-10-20  
+**Точка:** v0.7.3 FROZEN FOR CORPUS A; D-071 разрешает одну последнюю синхронизацию manuscript v0.7 → v0.7.1 перед formal coding Work 2.
 
 ---
 
@@ -11,9 +11,9 @@
 ## Статья №1
 
 1. `OLGA_ARTICLE_PASSPORT.md` — краткая текущая постановка статьи.
-2. `ARTICLE1_MANUSCRIPT.md` — полный manuscript v0.6, заморожен на период Corpus A.
+2. `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.6; до Work 2 допускается одна точечная синхронизация внешнего draft v0.7 → v0.7.1 по D-071, после канонизации — MANUSCRIPT FREEZE.
 3. `ARTICLE1_THEORETICAL_REVIEW.md` — ближайшие предшественники, research gap и риски.
-4. `DECISIONS.md` — полный журнал решений; D-070 фиксирует финальный reproducibility patch.
+4. `DECISIONS.md` — полный журнал решений; D-070 фиксирует frozen instrument v0.7.3, D-071 — однократную синхронизацию manuscript перед Corpus A.
 5. `ARTICLE1_REDTEAM_DELTA.md` — актуальные исторические red-team решения D-037–D-049 и контекст раннего сужения claims.
 
 ## Инструмент / Corpus A
@@ -228,7 +228,7 @@ AI coding не считается доказательством reproducibility
 
 # 11. Параллельный теоретический трек
 
-Во время Corpus A не переписывать manuscript, но можно продолжать source verification:
+После MANUSCRIPT FREEZE v0.7.1 и во время Corpus A manuscript не переписывать, но можно продолжать source verification:
 
 - Гальперин / Талызина / Давыдов — точные страницы;
 - 4C/ID / Decoding / CTA — novelty audit;
@@ -242,9 +242,9 @@ AI coding не считается доказательством reproducibility
 
 # 12. Следующий NEXT
 
-> **Формально кодировать Work 2 Corpus A строго по v0.7.3.**
+> **Однократно выполнить разрешённую D-071 точечную редакцию external draft v0.7 → v0.7.1, канонизировать manuscript в GitHub и немедленно установить MANUSCRIPT FREEZE.**
 
-Затем Work 3 → 4 → 5 → 6. Никакого cross-case переписывания до завершения всех пяти новых кодирований.
+До этой редакции **v0.7.1 не считается готовым manuscript**. После freeze следующий шаг — **формально кодировать Work 2 Corpus A строго по frozen instrument v0.7.3**, затем Work 3 → 4 → 5 → 6 → cross-case analysis. Manuscript после freeze не редактировать до завершения Works 2–6.
 
 ---
 
@@ -259,12 +259,14 @@ AI coding не считается доказательством reproducibility
 - ✅ v0.7.3 reproducibility patch.
 - ✅ Corpus A prompting map and dated pre-analysis predictions.
 - ✅ v0.7.3 fixed SHA / freeze ref.
+- ✅ D-071 one-time manuscript synchronization decision.
+- ⏳ v0.7 → v0.7.1 point edit, canonicalization and MANUSCRIPT FREEZE.
 - ⏳ Works 2–6 coded.
 - ⏳ Corpus A cross-case analysis.
 - ⏳ v0.8 decision.
 - ⏳ Cross-domain freeze.
 - ⏳ Corpus B human coding / reliability.
-- ⏳ Manuscript next version.
+- ⏳ Post-Corpus manuscript revision.
 
 Критерий зрелости проекта:
 
