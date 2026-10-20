@@ -2,23 +2,24 @@
 
 Методологический и исследовательский репозиторий проекта **«Когнитивное обучение экономике»**.
 
-## Текущий статус — 2026-10-19
+## Текущий статус — 2026-10-20
 
 Статья №1:
 
 > **«От категории к целостной экономической модели: архитектура когнитивных операций в экономическом образовании»**
 
-Текущий manuscript: **v0.6**, заморожен на период Corpus A.
+Текущий канонический manuscript: **v0.6**. По D-071 до formal coding Work 2 допускается одна точечная синхронизация external draft `v0.7 → v0.7.1`; после канонизации v0.7.1 — **MANUSCRIPT FREEZE / STOP EDITING THE PAPER** до завершения Works 2–6.
 
 Кодировочный инструмент:
 
 > **v0.7.3 — FROZEN FOR CORPUS A**
 
+Fixed SHA: `5f905c7a15e558bb2fff34c52ee4597e296a4a90`.  
 Исторический freeze v0.7.2: SHA `91b173464c6aec7d9f756f3dc5eb568ccf944457`.
 
 Текущая стадия:
 
-> **Финальный reproducibility patch завершает подготовку перед формальным coding работ 2–6 Corpus A.**
+> **Однократная manuscript synchronization по D-071; frozen instrument v0.7.3 не меняется. После MANUSCRIPT FREEZE v0.7.1 следующий шаг — formal coding Work 2.**
 
 ---
 
@@ -62,13 +63,14 @@
 
 ## Начать здесь
 
+- [`RESEARCH_HANDOFF.md`](RESEARCH_HANDOFF.md) — навигационный handoff между материнским и научным проектами.
 - [`ROADMAP.md`](ROADMAP.md) — текущая точка, NEXT и milestones.
 - [`OLGA_ARTICLE_PASSPORT.md`](OLGA_ARTICLE_PASSPORT.md) — паспорт статьи №1.
-- [`DECISIONS.md`](DECISIONS.md) — полный журнал решений; D-070 = финальный reproducibility patch.
+- [`DECISIONS.md`](DECISIONS.md) — полный журнал решений; D-070 = финальный reproducibility patch, D-071 = однократная синхронизация manuscript перед Corpus A.
 
 ## Статья №1
 
-- [`ARTICLE1_MANUSCRIPT.md`](ARTICLE1_MANUSCRIPT.md) — полный manuscript v0.6.
+- [`ARTICLE1_MANUSCRIPT.md`](ARTICLE1_MANUSCRIPT.md) — текущий канонический manuscript v0.6; v0.7.1 ещё не канонизирован.
 - [`ARTICLE1_THEORETICAL_REVIEW.md`](ARTICLE1_THEORETICAL_REVIEW.md) — ближайшие предшественники / research gap.
 - [`ARTICLE1_REDTEAM_DELTA.md`](ARTICLE1_REDTEAM_DELTA.md) — история red-team решений.
 
