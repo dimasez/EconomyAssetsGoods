@@ -1330,6 +1330,49 @@ D-072 является governance-cleanup после cold-start stress-test и *
 
 ---
 
+## D-073. Канонизация и MANUSCRIPT FREEZE статьи №1 v0.7.1
+
+**Статус:** принято автором и выполнено 2026-10-31; исполняет sequence D-071 и не изменяет frozen research design или instrument v0.7.3.
+
+### Канонизация
+
+По принятому автором решению candidate `ARTICLE1_MANUSCRIPT_v0.7.1_candidate_micro_patch.docx` канонизирован как:
+
+> `ARTICLE1_MANUSCRIPT.md` — **v0.7.1**.
+
+GitHub commit: `bf948260024eb6a4e666aaf30e1771704d7f2dab`.  
+Manuscript blob SHA: `a99a67c867669414a0b3245d9f23df4c0822d4f4`.
+
+В канонический текст перенесён принятый D-071 candidate с последним MICRO-PATCH:
+- в русской и английской аннотациях согласован набор свойств модели: integration / интеграция, correctness / корректность, consistency / согласованность, presentation of grounds / предъявленность основания;
+- в таблице 3 и связанном примере удержано различение object → resource → asset → capability, включая пример оборудования партнёра с разовым доступом;
+- системно-управленческая интерпретация актива в учебной модели курса не заявляется как новая авторская универсальная дефиниция актива.
+
+Publication placeholders в примечании 6 сохранены.
+
+### MANUSCRIPT FREEZE
+
+`ARTICLE1_MANUSCRIPT.md` v0.7.1 **заморожен** до завершения формального кодирования Works 2–6 Corpus A и cross-case analysis. Во время кодирования manuscript не редактируется. Любая последующая редакция требует отдельного решения после полного корпуса.
+
+### Freeze safety / неизменность инструмента
+
+Текущий Corpus A instrument остаётся **v0.7.3 — FROZEN FOR CORPUS A**, fixed SHA `5f905c7a15e558bb2fff34c52ee4597e296a4a90`.
+
+Контрольные blob SHA frozen research artifacts после канонизации manuscript:
+- `ARTICLE1_CODING_MATRIX.md`: `371af81cfa15847a0f24ad1e9580f9de61376399`;
+- `ARTICLE1_CODING_MANUAL.md`: `a976829708b520d8924d993ba93c96c563b6d89e`;
+- `ARTICLE1_CORPUS_A_REQUIREMENTS.md`: `65993f51c931b40cf92b3e5699dcf1eec97bbf1e`;
+- `ARTICLE1_CORPUS_A_PREDICTIONS.md`: `8de90ed7fcfe8b9c2095019493820d92142aa729`;
+- `ARTICLE1_FINANCIAL_ADAPTER_A.md`: `c6565d434783c4257b14dc70e5dae1709f309166`.
+
+Эти файлы не изменялись. Не менялись 14 строк CORE, Manual, requirement map, predictions, A6, Financial Adapter A и статус Corpus A/B. Новые гипотезы Corpus A не добавлялись.
+
+### Следующий шаг
+
+После manuscript freeze разрешено начать formal coding **Work 2 — Belobank / «Белый банк»** по неизменному v0.7.3. Результаты не являются основанием для изменения инструмента по ходу кодирования; новые проблемы фиксируются в Issue Log.
+
+---
+
 # Текущий NEXT
 
-> **Выполнить единственную разрешённую D-071 точечную редакцию external draft v0.7 → v0.7.1, канонизировать manuscript в GitHub и установить MANUSCRIPT FREEZE. После этого — formal coding Work 2 по неизменному frozen instrument v0.7.3.**
+> **Formal coding Work 2 — Belobank / «Белый банк» — по frozen instrument v0.7.3 и frozen manuscript v0.7.1.**
