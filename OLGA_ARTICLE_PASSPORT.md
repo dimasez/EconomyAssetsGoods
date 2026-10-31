@@ -1,7 +1,7 @@
 # Паспорт программной статьи №1
 
-**Статус:** текущий канонический manuscript v0.6; D-071 разрешает одну точечную синхронизацию external draft v0.7 → v0.7.1 перед Corpus A  
-**Актуально на:** 2026-10-20
+**Статус:** текущий канонический manuscript v0.7.1 — MANUSCRIPT FREEZE по EAG-D-073  
+**Актуально на:** 2026-10-31
 
 ## Рабочее название
 
@@ -72,7 +72,7 @@
 
 `обязательные различения → отношения → операции → источник → наблюдаемый след → дефицит → контраст`.
 
-Рабочий 9-шаговый протокол сохраняется в manuscript v0.6. Его воспроизводимость должна проверяться отдельно от воспроизводимости кодировочной матрицы.
+Рабочий 9-шаговый протокол сохранён в manuscript v0.7.1. Его воспроизводимость должна проверяться отдельно от воспроизводимости кодировочной матрицы.
 
 ---
 
@@ -262,11 +262,11 @@ CORE работает на уровне структуры экономичес�
 
 # 15. Текущий статус файлов
 
-- `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.6; external draft v0.7 ещё не каноничен. По D-071 разрешена одна точечная редакция `v0.7 → v0.7.1`, затем канонизация и MANUSCRIPT FREEZE до завершения Works 2–6;
+- `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.7.1; MANUSCRIPT FREEZE по EAG-D-073 до завершения Works 2–6;
 - `ARTICLE1_CODING_MATRIX.md` — **v0.7.3 FROZEN FOR CORPUS A**, fixed SHA `5f905c7a15e558bb2fff34c52ee4597e296a4a90`;
 - `ARTICLE1_CODING_MANUAL.md` — полный reproducibility manual **v0.7.3**, frozen;
 - `ARTICLE1_CORPUS_A_PREDICTIONS.md` — dated internal pre-analysis registration до formal coding работ 2–6;
 - `ARTICLE1_CORPUS_A_REQUIREMENTS.md` — frozen prompting map;
 - `ARTICLE1_CORPUS_A_PILOT_SIBERGY.md` — development case.
 
-Следующий шаг статьи по D-071 — **однократно выполнить разрешённую точечную редакцию v0.7 → v0.7.1, канонизировать manuscript и установить MANUSCRIPT FREEZE**. До выполнения этой редакции v0.7.1 не считается готовым. После freeze следующий шаг — formal coding Work 2 по неизменному frozen instrument v0.7.3.
+Следующий шаг — **formal coding Work 2 — Belobank / «Белый банк» — по неизменному frozen instrument v0.7.3**. Manuscript v0.7.1 остаётся frozen до завершения Works 2–6.
