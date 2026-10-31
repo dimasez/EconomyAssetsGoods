@@ -9,13 +9,13 @@
 
 Для межрепозиторных ссылок решения этого репозитория обозначаются `EAG-D-xxx`; решения School Canon — `SC-D-xxx`. Исторические номера внутри файлов не перенумеровываются.
 
-## Текущий статус — 2026-10-20
+## Текущий статус — 2026-10-31
 
 Статья №1:
 
 > **«От категории к целостной экономической модели: архитектура когнитивных операций в экономическом образовании»**
 
-Текущий канонический manuscript: **v0.6**. По EAG-D-071 до formal coding Work 2 допускается одна точечная синхронизация external draft `v0.7 → v0.7.1`; после канонизации v0.7.1 — **MANUSCRIPT FREEZE / STOP EDITING THE PAPER** до завершения Works 2–6.
+Текущий канонический manuscript: **v0.7.1 — MANUSCRIPT FREEZE** (EAG-D-073). Рукопись не редактируется до завершения Works 2–6 Corpus A.
 
 Кодировочный инструмент:
 
@@ -26,7 +26,7 @@ Fixed SHA: `5f905c7a15e558bb2fff34c52ee4597e296a4a90`.
 
 Текущая стадия:
 
-> **Однократная manuscript synchronization по EAG-D-071; frozen instrument v0.7.3 не меняется. После MANUSCRIPT FREEZE v0.7.1 следующий шаг — formal coding Work 2.**
+> **MANUSCRIPT FREEZE v0.7.1 завершён; следующий шаг — formal coding Work 2 по неизменному frozen instrument v0.7.3.**
 
 ---
 
@@ -82,7 +82,7 @@ Fixed SHA: `5f905c7a15e558bb2fff34c52ee4597e296a4a90`.
 
 ## Статья №1
 
-- [`ARTICLE1_MANUSCRIPT.md`](ARTICLE1_MANUSCRIPT.md) — текущий канонический manuscript v0.6; v0.7.1 ещё не канонизирован.
+- [`ARTICLE1_MANUSCRIPT.md`](ARTICLE1_MANUSCRIPT.md) — текущий канонический manuscript v0.7.1; MANUSCRIPT FREEZE по EAG-D-073.
 - [`ARTICLE1_THEORETICAL_REVIEW.md`](ARTICLE1_THEORETICAL_REVIEW.md) — ближайшие предшественники / research gap.
 - [`ARTICLE1_REDTEAM_DELTA.md`](ARTICLE1_REDTEAM_DELTA.md) — история red-team решений.
 
