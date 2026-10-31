@@ -25,7 +25,7 @@
 
 > **«От категории к целостной экономической модели: архитектура когнитивных операций в экономическом образовании»**
 
-Текущий полный manuscript: `ARTICLE1_MANUSCRIPT.md`, **v0.6**. Он заморожен на период Corpus A.
+Текущий полный manuscript: `ARTICLE1_MANUSCRIPT.md`, **v0.7.1 — MANUSCRIPT FREEZE** по EAG-D-073. Он заморожен до завершения Works 2–6 Corpus A.
 
 ## Объект
 
@@ -157,6 +157,6 @@ Effectuation и entrepreneurship education остаются обязательн
 
 # 6. Текущая последовательность
 
-`manuscript v0.6 frozen → v0.7.2 reproducibility freeze → Corpus A works 2–6 → cross-case analysis → possible v0.8 → cross-domain freeze → Corpus B + human coders → manuscript next version`.
+`manuscript v0.7.1 frozen → Corpus A Works 2–6 → cross-case analysis → possible v0.8 → cross-domain freeze → Corpus B + human coders → post-Corpus manuscript revision`.
 
 До завершения Corpus A статья №1 не переписывается под каждый новый артефакт.
