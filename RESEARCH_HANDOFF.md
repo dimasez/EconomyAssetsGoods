@@ -1,6 +1,6 @@
 # RESEARCH_HANDOFF — переход к научному проекту
 
-**Актуально на:** 2026-10-20  
+**Актуально на:** 2026-10-31  
 **Назначение:** точка входа в отдельный проект «Диссертация и статьи — когнитивное обучение экономике».
 
 ---
@@ -277,7 +277,7 @@ Implementation ≠ validation.
 
 ## 14. Текущий manuscript
 
-В GitHub канонический `ARTICLE1_MANUSCRIPT.md` остаётся версией **v0.6**. D-071 разрешает перед formal coding Work 2 **одну и только одну** точечную синхронизацию manuscript: внешний draft `v0.7 → v0.7.1 → канонизация в GitHub → MANUSCRIPT FREEZE → STOP EDITING THE PAPER`.
+В GitHub канонический `ARTICLE1_MANUSCRIPT.md` обновлён до **v0.7.1** и заморожен решением EAG-D-073 от 2026-10-31. Последовательность D-071 выполнена: external draft `v0.7 → v0.7.1 → canonicalization → MANUSCRIPT FREEZE → STOP EDITING THE PAPER`.
 
 После freeze v0.7.3 подготовлен внешний рабочий draft **v0.7** (Claude), который пока не является каноническим GitHub manuscript. Его ключевые улучшения:
 
@@ -322,9 +322,9 @@ Implementation ≠ validation.
 
 Текущая последовательность по D-071:
 
-1. выполнить **одну** точечную редакцию external draft `v0.7 → v0.7.1` только в разрешённых классах правок;
-2. канонизировать v0.7.1 в GitHub и установить **MANUSCRIPT FREEZE / STOP EDITING THE PAPER**;
-3. formal coding Work 2 по frozen v0.7.3;
+1. **выполнено:** одна точечная редакция external draft `v0.7 → v0.7.1` в разрешённых D-071 классах;
+2. **выполнено:** канонизация v0.7.1 в GitHub и **MANUSCRIPT FREEZE / STOP EDITING THE PAPER**;
+3. **текущий NEXT:** formal coding Work 2 по frozen v0.7.3;
 4. Work 3 → Work 4 → Work 5 → Work 6 без изменения инструмента и manuscript;
 5. cross-case analysis;
 6. разобрать Issue Log и только после всего Corpus A решать, нужна ли v0.8;
@@ -332,7 +332,7 @@ Implementation ≠ validation.
 8. после эмпирики вернуться к следующей версии статьи;
 9. отдельно развивать архитектуру диссертации и будущих публикаций.
 
-Пока сама точечная редакция не выполнена, **manuscript v0.7.1 не считается готовым или каноническим**.
+Точечная редакция, канонизация и MANUSCRIPT FREEZE v0.7.1 выполнены. Текущий NEXT — formal coding Work 2 по frozen v0.7.3.
 
 ---
 
