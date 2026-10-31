@@ -1,8 +1,8 @@
 # ROADMAP — дорожная карта проекта
 
 **Статус:** живой навигационный документ v0.8  
-**Актуально на:** 2026-10-20  
-**Точка:** v0.7.3 FROZEN FOR CORPUS A; D-071 разрешает одну последнюю синхронизацию manuscript v0.7 → v0.7.1 перед formal coding Work 2.
+**Актуально на:** 2026-10-31  
+**Точка:** manuscript v0.7.1 MANUSCRIPT FREEZE по EAG-D-073; instrument v0.7.3 FROZEN FOR CORPUS A; следующий шаг — formal coding Work 2.
 
 ---
 
@@ -11,9 +11,9 @@
 ## Статья №1
 
 1. `OLGA_ARTICLE_PASSPORT.md` — краткая текущая постановка статьи.
-2. `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.6; до Work 2 допускается одна точечная синхронизация внешнего draft v0.7 → v0.7.1 по D-071, после канонизации — MANUSCRIPT FREEZE.
+2. `ARTICLE1_MANUSCRIPT.md` — текущий канонический manuscript v0.7.1; MANUSCRIPT FREEZE по EAG-D-073 до завершения Works 2–6.
 3. `ARTICLE1_THEORETICAL_REVIEW.md` — ближайшие предшественники, research gap и риски.
-4. `DECISIONS.md` — полный журнал решений; D-070 фиксирует frozen instrument v0.7.3, D-071 — однократную синхронизацию manuscript перед Corpus A.
+4. `DECISIONS.md` — полный журнал решений; D-070 фиксирует frozen instrument v0.7.3, D-071 — разрешённую синхронизацию manuscript, D-073 — канонизацию и MANUSCRIPT FREEZE v0.7.1.
 5. `ARTICLE1_REDTEAM_DELTA.md` — актуальные исторические red-team решения D-037–D-049 и контекст раннего сужения claims.
 
 ## Инструмент / Corpus A
@@ -242,16 +242,16 @@ AI coding не считается доказательством reproducibility
 
 # 12. Следующий NEXT
 
-> **Однократно выполнить разрешённую D-071 точечную редакцию external draft v0.7 → v0.7.1, канонизировать manuscript в GitHub и немедленно установить MANUSCRIPT FREEZE.**
+> **Формально закодировать Work 2 — Belobank / «Белый банк» — по frozen instrument v0.7.3; manuscript v0.7.1 остаётся frozen.**
 
-До этой редакции **v0.7.1 не считается готовым manuscript**. После freeze следующий шаг — **формально кодировать Work 2 Corpus A строго по frozen instrument v0.7.3**, затем Work 3 → 4 → 5 → 6 → cross-case analysis. Manuscript после freeze не редактировать до завершения Works 2–6.
+Manuscript v0.7.1 канонизирован и frozen. Следующий шаг — **formal coding Work 2 Corpus A строго по frozen instrument v0.7.3**, затем Work 3 → 4 → 5 → 6 → cross-case analysis. Manuscript не редактировать до завершения Works 2–6.
 
 ---
 
 # 13. Milestones
 
 - ✅ Object / subject / mechanism frozen.
-- ✅ Manuscript v0.6.
+- ✅ Manuscript v0.7.1 canonicalized and MANUSCRIPT FROZEN (EAG-D-073).
 - ✅ Three-product architecture.
 - ✅ Sibergy development stress-test.
 - ✅ CORE + adapters.
@@ -260,7 +260,7 @@ AI coding не считается доказательством reproducibility
 - ✅ Corpus A prompting map and dated pre-analysis predictions.
 - ✅ v0.7.3 fixed SHA / freeze ref.
 - ✅ D-071 one-time manuscript synchronization decision.
-- ⏳ v0.7 → v0.7.1 point edit, canonicalization and MANUSCRIPT FREEZE.
+- ✅ v0.7 → v0.7.1 point edit, canonicalization and MANUSCRIPT FREEZE.
 - ⏳ Works 2–6 coded.
 - ⏳ Corpus A cross-case analysis.
 - ⏳ v0.8 decision.
