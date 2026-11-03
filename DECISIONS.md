@@ -1376,3 +1376,21 @@ Publication placeholders в примечании 6 сохранены.
 # Текущий NEXT
 
 > **Formal coding Work 2 — Belobank / «Белый банк» — по frozen instrument v0.7.3 и frozen manuscript v0.7.1.**
+
+---
+
+## D-074. Master-copy Claude Project Instructions в EAG
+
+**Статус:** принято автором и выполнено 2026-11-03; governance-only решение. Не изменяет research design, manuscript freeze, frozen instrument v0.7.3 или границу с `School_Canon`.
+
+### Решение
+
+1. `CLAUDE_PROJECT_INSTRUCTIONS.md` в корне `EconomyAssetsGoods` является **master-copy операционной инструкции Claude-проекта «Статья №1. Кандидатская»**.
+2. Поле Claude Project Instructions, описание проекта и иные копии синхронизируются из этого master-файла; копии не являются самостоятельным источником истины.
+3. Сам файл инструкции **не является самостоятельным научным каноном** и подчинён иерархии источников EAG: текущие указания автора → `DECISIONS.md` → `ROADMAP.md` / паспорт статьи → manuscript / theoretical review → frozen research instruments → остальные файлы.
+4. Изменение Project Instructions не является основанием менять frozen manuscript, Coding Matrix / Manual, Corpus A requirements / predictions или иные исследовательские freeze-артефакты.
+5. `School_Canon` этим решением **не изменяется**.
+
+### Протокол синхронизации
+
+При изменении инструкции сначала после решения автора меняется master-файл в EAG, затем синхронизируются внешние копии. Если копия расходится с master-файлом или с более приоритетным каноническим источником, расхождение должно быть явно названо, а не устранено молча.
